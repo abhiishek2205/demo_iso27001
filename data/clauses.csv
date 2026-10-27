@@ -1,0 +1,8 @@
+clause,title,status,current_state,gap
+4,Context of the organization,Partially conformant,"Leadership understands the business, regulatory and customer context informally.","No documented ISMS scope, internal/external issues or register of interested parties and their requirements."
+5,Leadership,Partially conformant,CEO is supportive and the CTO acts as informal security owner.,"No approved information security policy, no formally assigned ISMS roles or authorities, and no Information Security Manager."
+6,Planning,Non-conformant,This gap assessment is the first structured look at security risk.,"No risk assessment methodology, risk treatment plan, Statement of Applicability or measurable security objectives."
+7,Support,Partially conformant,Budget and engineering time are available for security tasks on request.,"Competence requirements and awareness are not defined, and there is no control of documented information (versioning, approval, retention)."
+8,Operation,Partially conformant,Several operational controls run because partner banks and PCI DSS require them.,"Controls are not planned or operated through a risk treatment plan, and risk assessments are not repeated at planned intervals or after major change."
+9,Performance evaluation,Non-conformant,Only uptime and payment-success metrics are tracked.,"No security metrics, no internal audit programme and no management review of the ISMS."
+10,Improvement,Non-conformant,"Problems are fixed when noticed, without root-cause analysis.","No nonconformity and corrective action process or log, and no evidence of continual improvement."

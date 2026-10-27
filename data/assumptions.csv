@@ -1,0 +1,13 @@
+id,assumption
+AS-01,"SecurePay Technologies is a fictional organisation. All facts about it, including incidents, findings and metrics, are assumed for the purpose of this exercise."
+AS-02,"The assessment reflects an assumed point-in-time state as at October 2026. No interviews, system access or evidence sampling were performed; 'evidence requested' lists what a real assessor would ask for."
+AS-03,SecurePay holds RBI in-principle authorisation as an online Payment Aggregator and is working towards final authorisation.
+AS-04,Card data is captured by a PCI DSS Level 1 partner processor's hosted fields and tokenised; SecurePay never stores full card numbers but remains in PCI DSS scope as a service provider. Formal PCI DSS v4.0.1 assessment is planned within 9 months.
+AS-05,"All production systems and payment data are hosted in AWS ap-south-1 (Mumbai) with backups in ap-south-2 (Hyderabad), meeting RBI payment data localisation."
+AS-06,Physical and environmental controls for the data centre are inherited from AWS and validated through AWS assurance reports; they were not assessed directly.
+AS-07,The support vendor 'SupportCo' is fictional and represents a typical small Indian BPO; 12 agents work from the vendor's premises.
+AS-08,"The DPDP Act, 2023 and the DPDP Rules, 2025 apply, with substantive obligations phased in; the assessment treats them as requirements SecurePay must be ready for."
+AS-09,Risk ratings use SecurePay's assumed risk appetite: risks scored 12 or above must be treated; Medium risks may be accepted with documented CEO sign-off.
+AS-10,Effort estimates are indicative person-days for internal staff and exclude licence costs; they assume an Information Security Manager is appointed within the first month.
+AS-11,The 20 controls were selected for relevance to a cloud-hosted fintech; the remaining 73 controls have indicative SoA statuses only and were not assessed in detail.
+AS-12,Control requirements are paraphrased in plain English for this exercise; refer to the licensed ISO/IEC 27001:2022 and ISO/IEC 27002:2022 texts for authoritative wording.
